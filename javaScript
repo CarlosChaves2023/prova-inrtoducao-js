@@ -1,0 +1,11 @@
+var nota1 = 8
+var nota2 = 9
+var nota3 = 8
+
+var p1 = 1
+var p2 = 2
+var p3 = 3
+
+var media = ((nota1 * p1) + (nota2 * p2) + (nota3 * p3)) / (p1 + p2 + p3)
+
+console.log(`Média: ${media.toFixed(2)}`)
